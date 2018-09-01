@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50DA33C3116C8D83F677BF1E /* Pods_GreenjinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19586702226D757185CA5EF /* Pods_GreenjinUITests.framework */; };
+		8445A5EF421664E0A81DE132 /* Pods_Greenjin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8DE95967A20EEFEEF3AE36 /* Pods_Greenjin.framework */; };
+		9135D9A183A179C355DCF006 /* Pods_GreenjinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AAF1ADEC4DAAD8F51814C6 /* Pods_GreenjinTests.framework */; };
+		C306565D21219F060016820C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306565C21219F060016820C /* AppDelegate.swift */; };
+		C306565F21219F060016820C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306565E21219F060016820C /* ViewController.swift */; };
+		C306566221219F060016820C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C306566021219F060016820C /* Main.storyboard */; };
+		C306566521219F060016820C /* Greenjin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C306566321219F060016820C /* Greenjin.xcdatamodeld */; };
+		C306566721219F070016820C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C306566621219F070016820C /* Assets.xcassets */; };
+		C306566A21219F070016820C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C306566821219F070016820C /* LaunchScreen.storyboard */; };
+		C306567521219F070016820C /* GreenjinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306567421219F070016820C /* GreenjinTests.swift */; };
+		C306568021219F070016820C /* GreenjinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306567F21219F070016820C /* GreenjinUITests.swift */; };
+		C306568F21219FCC0016820C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C306568E21219FCC0016820C /* README.md */; };
+		C35A7DDC2121AD2800496255 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A7DDB2121AD2800496255 /* HomeViewController.swift */; };
+		C35A7DDE2121BB8300496255 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A7DDD2121BB8300496255 /* DataManager.swift */; };
+		C35A7DE12121C7AF00496255 /* MopedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A7DDF2121C7AF00496255 /* MopedViewCell.swift */; };
+		C35A7DE22121C7AF00496255 /* MopedViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35A7DE02121C7AF00496255 /* MopedViewCell.xib */; };
+		C35A7DE42121CB4200496255 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A7DE32121CB4200496255 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C306567121219F070016820C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C306565121219F060016820C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C306565821219F060016820C;
+			remoteInfo = Greenjin;
+		};
+		C306567C21219F070016820C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C306565121219F060016820C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C306565821219F060016820C;
+			remoteInfo = Greenjin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053ECE7472ADA6EF3D86D082 /* Pods-GreenjinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenjinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenjinUITests/Pods-GreenjinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC4A44BF33DE5262F5F5AB1 /* Pods-GreenjinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenjinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenjinTests/Pods-GreenjinTests.release.xcconfig"; sourceTree = "<group>"; };
+		32AAF1ADEC4DAAD8F51814C6 /* Pods_GreenjinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenjinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C83871828CBD7C5B7BF5FAF /* Pods-Greenjin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greenjin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Greenjin/Pods-Greenjin.release.xcconfig"; sourceTree = "<group>"; };
+		4D8DE95967A20EEFEEF3AE36 /* Pods_Greenjin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greenjin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938909680EA8339EA57B489C /* Pods-Greenjin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greenjin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greenjin/Pods-Greenjin.debug.xcconfig"; sourceTree = "<group>"; };
+		B19586702226D757185CA5EF /* Pods_GreenjinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenjinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306565921219F060016820C /* Greenjin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greenjin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306565C21219F060016820C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C306565E21219F060016820C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C306566121219F060016820C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C306566421219F060016820C /* Greenjin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Greenjin.xcdatamodel; sourceTree = "<group>"; };
+		C306566621219F070016820C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C306566921219F070016820C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C306566B21219F070016820C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C306567021219F070016820C /* GreenjinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenjinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306567421219F070016820C /* GreenjinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenjinTests.swift; sourceTree = "<group>"; };
+		C306567621219F070016820C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C306567B21219F070016820C /* GreenjinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenjinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306567F21219F070016820C /* GreenjinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenjinUITests.swift; sourceTree = "<group>"; };
+		C306568121219F070016820C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C306568E21219FCC0016820C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C35A7DDB2121AD2800496255 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C35A7DDD2121BB8300496255 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C35A7DDF2121C7AF00496255 /* MopedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MopedViewCell.swift; sourceTree = "<group>"; };
+		C35A7DE02121C7AF00496255 /* MopedViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MopedViewCell.xib; sourceTree = "<group>"; };
+		C35A7DE32121CB4200496255 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D1C88EB1D2A6A9CECDAF5B0E /* Pods-GreenjinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenjinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenjinTests/Pods-GreenjinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9B260B89D95949D7BF7F963 /* Pods-GreenjinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenjinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenjinUITests/Pods-GreenjinUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C306565621219F060016820C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8445A5EF421664E0A81DE132 /* Pods_Greenjin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306566D21219F070016820C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9135D9A183A179C355DCF006 /* Pods_GreenjinTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306567821219F070016820C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DA33C3116C8D83F677BF1E /* Pods_GreenjinUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E6B382716970484AFCD01D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				938909680EA8339EA57B489C /* Pods-Greenjin.debug.xcconfig */,
+				4C83871828CBD7C5B7BF5FAF /* Pods-Greenjin.release.xcconfig */,
+				D1C88EB1D2A6A9CECDAF5B0E /* Pods-GreenjinTests.debug.xcconfig */,
+				1DC4A44BF33DE5262F5F5AB1 /* Pods-GreenjinTests.release.xcconfig */,
+				053ECE7472ADA6EF3D86D082 /* Pods-GreenjinUITests.debug.xcconfig */,
+				F9B260B89D95949D7BF7F963 /* Pods-GreenjinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		503E2E91A8BA519EF2FE892F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D8DE95967A20EEFEEF3AE36 /* Pods_Greenjin.framework */,
+				32AAF1ADEC4DAAD8F51814C6 /* Pods_GreenjinTests.framework */,
+				B19586702226D757185CA5EF /* Pods_GreenjinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C306565021219F060016820C = {
+			isa = PBXGroup;
+			children = (
+				C306565B21219F060016820C /* Greenjin */,
+				C306567321219F070016820C /* GreenjinTests */,
+				C306567E21219F070016820C /* GreenjinUITests */,
+				C306565A21219F060016820C /* Products */,
+				2E6B382716970484AFCD01D6 /* Pods */,
+				503E2E91A8BA519EF2FE892F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C306565A21219F060016820C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C306565921219F060016820C /* Greenjin.app */,
+				C306567021219F070016820C /* GreenjinTests.xctest */,
+				C306567B21219F070016820C /* GreenjinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C306565B21219F060016820C /* Greenjin */ = {
+			isa = PBXGroup;
+			children = (
+				C306568D21219F6F0016820C /* Support files */,
+				C39DBD7B21235E9100BA9015 /* Controllers */,
+				C39DBD782123133300BA9015 /* Data */,
+				C35A7DDF2121C7AF00496255 /* MopedViewCell.swift */,
+				C35A7DE02121C7AF00496255 /* MopedViewCell.xib */,
+				C306566021219F060016820C /* Main.storyboard */,
+				C306568E21219FCC0016820C /* README.md */,
+				C306566B21219F070016820C /* Info.plist */,
+			);
+			path = Greenjin;
+			sourceTree = "<group>";
+		};
+		C306567321219F070016820C /* GreenjinTests */ = {
+			isa = PBXGroup;
+			children = (
+				C306567421219F070016820C /* GreenjinTests.swift */,
+				C306567621219F070016820C /* Info.plist */,
+			);
+			path = GreenjinTests;
+			sourceTree = "<group>";
+		};
+		C306567E21219F070016820C /* GreenjinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C306567F21219F070016820C /* GreenjinUITests.swift */,
+				C306568121219F070016820C /* Info.plist */,
+			);
+			path = GreenjinUITests;
+			sourceTree = "<group>";
+		};
+		C306568D21219F6F0016820C /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				C306565C21219F060016820C /* AppDelegate.swift */,
+				C306566621219F070016820C /* Assets.xcassets */,
+				C306566821219F070016820C /* LaunchScreen.storyboard */,
+				C306566321219F060016820C /* Greenjin.xcdatamodeld */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		C39DBD782123133300BA9015 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C35A7DDD2121BB8300496255 /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C39DBD7B21235E9100BA9015 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C306565E21219F060016820C /* ViewController.swift */,
+				C35A7DDB2121AD2800496255 /* HomeViewController.swift */,
+				C35A7DE32121CB4200496255 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C306565821219F060016820C /* Greenjin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C306568421219F070016820C /* Build configuration list for PBXNativeTarget "Greenjin" */;
+			buildPhases = (
+				BABD6862542A7DCA407047D0 /* [CP] Check Pods Manifest.lock */,
+				C306565521219F060016820C /* Sources */,
+				C306565621219F060016820C /* Frameworks */,
+				C306565721219F060016820C /* Resources */,
+				170C4AB4BED74031AAFB0629 /* [CP] Embed Pods Frameworks */,
+				E57B0A2133252C75A5B4DC98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greenjin;
+			productName = Greenjin;
+			productReference = C306565921219F060016820C /* Greenjin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C306566F21219F070016820C /* GreenjinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C306568721219F070016820C /* Build configuration list for PBXNativeTarget "GreenjinTests" */;
+			buildPhases = (
+				4292F1518A36B62E9987D8F8 /* [CP] Check Pods Manifest.lock */,
+				C306566C21219F070016820C /* Sources */,
+				C306566D21219F070016820C /* Frameworks */,
+				C306566E21219F070016820C /* Resources */,
+				EA57B7FC18736353192CB196 /* [CP] Embed Pods Frameworks */,
+				BC86F0F7CF0384C04C06023F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C306567221219F070016820C /* PBXTargetDependency */,
+			);
+			name = GreenjinTests;
+			productName = GreenjinTests;
+			productReference = C306567021219F070016820C /* GreenjinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C306567A21219F070016820C /* GreenjinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C306568A21219F070016820C /* Build configuration list for PBXNativeTarget "GreenjinUITests" */;
+			buildPhases = (
+				C7E645512444C2B7CA11CFA6 /* [CP] Check Pods Manifest.lock */,
+				C306567721219F070016820C /* Sources */,
+				C306567821219F070016820C /* Frameworks */,
+				C306567921219F070016820C /* Resources */,
+				33BE897D6DE78E87D0C695FC /* [CP] Embed Pods Frameworks */,
+				34DF2FD7163F3058A557901A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C306567D21219F070016820C /* PBXTargetDependency */,
+			);
+			name = GreenjinUITests;
+			productName = GreenjinUITests;
+			productReference = C306567B21219F070016820C /* GreenjinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C306565121219F060016820C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "mahesh lad";
+				TargetAttributes = {
+					C306565821219F060016820C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C306566F21219F070016820C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C306565821219F060016820C;
+					};
+					C306567A21219F070016820C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C306565821219F060016820C;
+					};
+				};
+			};
+			buildConfigurationList = C306565421219F060016820C /* Build configuration list for PBXProject "Greenjin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C306565021219F060016820C;
+			productRefGroup = C306565A21219F060016820C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C306565821219F060016820C /* Greenjin */,
+				C306566F21219F070016820C /* GreenjinTests */,
+				C306567A21219F070016820C /* GreenjinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C306565721219F060016820C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35A7DE22121C7AF00496255 /* MopedViewCell.xib in Resources */,
+				C306566A21219F070016820C /* LaunchScreen.storyboard in Resources */,
+				C306566721219F070016820C /* Assets.xcassets in Resources */,
+				C306568F21219FCC0016820C /* README.md in Resources */,
+				C306566221219F060016820C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306566E21219F070016820C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306567921219F070016820C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		170C4AB4BED74031AAFB0629 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Greenjin/Pods-Greenjin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DKScrollingTabController/DKScrollingTabController.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKScrollingTabController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Greenjin/Pods-Greenjin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33BE897D6DE78E87D0C695FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenjinUITests/Pods-GreenjinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34DF2FD7163F3058A557901A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenjinUITests/Pods-GreenjinUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4292F1518A36B62E9987D8F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenjinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABD6862542A7DCA407047D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Greenjin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC86F0F7CF0384C04C06023F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenjinTests/Pods-GreenjinTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E645512444C2B7CA11CFA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenjinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57B0A2133252C75A5B4DC98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Greenjin/Pods-Greenjin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA57B7FC18736353192CB196 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenjinTests/Pods-GreenjinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C306565521219F060016820C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35A7DE12121C7AF00496255 /* MopedViewCell.swift in Sources */,
+				C306565F21219F060016820C /* ViewController.swift in Sources */,
+				C35A7DDE2121BB8300496255 /* DataManager.swift in Sources */,
+				C306566521219F060016820C /* Greenjin.xcdatamodeld in Sources */,
+				C306565D21219F060016820C /* AppDelegate.swift in Sources */,
+				C35A7DDC2121AD2800496255 /* HomeViewController.swift in Sources */,
+				C35A7DE42121CB4200496255 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306566C21219F070016820C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306567521219F070016820C /* GreenjinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306567721219F070016820C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306568021219F070016820C /* GreenjinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C306567221219F070016820C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C306565821219F060016820C /* Greenjin */;
+			targetProxy = C306567121219F070016820C /* PBXContainerItemProxy */;
+		};
+		C306567D21219F070016820C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C306565821219F060016820C /* Greenjin */;
+			targetProxy = C306567C21219F070016820C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C306566021219F060016820C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C306566121219F060016820C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C306566821219F070016820C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C306566921219F070016820C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C306568221219F070016820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C306568321219F070016820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C306568521219F070016820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938909680EA8339EA57B489C /* Pods-Greenjin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = Greenjin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.Greenjin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C306568621219F070016820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C83871828CBD7C5B7BF5FAF /* Pods-Greenjin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = Greenjin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.Greenjin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C306568821219F070016820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C88EB1D2A6A9CECDAF5B0E /* Pods-GreenjinTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = GreenjinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GreenjinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greenjin.app/Greenjin";
+			};
+			name = Debug;
+		};
+		C306568921219F070016820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC4A44BF33DE5262F5F5AB1 /* Pods-GreenjinTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = GreenjinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GreenjinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greenjin.app/Greenjin";
+			};
+			name = Release;
+		};
+		C306568B21219F070016820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053ECE7472ADA6EF3D86D082 /* Pods-GreenjinUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = GreenjinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GreenjinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Greenjin;
+			};
+			name = Debug;
+		};
+		C306568C21219F070016820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B260B89D95949D7BF7F963 /* Pods-GreenjinUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAZ5K2949S;
+				INFOPLIST_FILE = GreenjinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GreenjinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Greenjin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C306565421219F060016820C /* Build configuration list for PBXProject "Greenjin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306568221219F070016820C /* Debug */,
+				C306568321219F070016820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C306568421219F070016820C /* Build configuration list for PBXNativeTarget "Greenjin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306568521219F070016820C /* Debug */,
+				C306568621219F070016820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C306568721219F070016820C /* Build configuration list for PBXNativeTarget "GreenjinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306568821219F070016820C /* Debug */,
+				C306568921219F070016820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C306568A21219F070016820C /* Build configuration list for PBXNativeTarget "GreenjinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306568B21219F070016820C /* Debug */,
+				C306568C21219F070016820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C306566321219F060016820C /* Greenjin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C306566421219F060016820C /* Greenjin.xcdatamodel */,
+			);
+			currentVersion = C306566421219F060016820C /* Greenjin.xcdatamodel */;
+			path = Greenjin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C306565121219F060016820C /* Project object */;
+}
